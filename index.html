@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="description" content="Sourabh's portfolio showcasing web development projects and skills.">
+    <meta name="keywords" content="portfolio, web development, projects, sourabh, developer">
+    <meta name="author" content="Sourabh">
+    <meta property="og:title" content="Sourabh's Portfolio">
+    <meta property="og:description" content="Explore Sourabh's projects and skills in web development.">
+    <meta property="og:image" content="link-to-preview-image.jpg">
+
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/icon.jpg" type="image/x-icon" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Sourabh Portfolio</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav">
+        <a href="#" class="nav__logo"> Sourabh </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="ri-home-6-line"></i>Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="ri-trophy-line"></i>Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="ri-book-2-line"></i>Qualification
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="ri-briefcase-4-line"></i>Services
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="ri-gallery-upload-line"></i>Projects
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="ri-contacts-book-upload-line"></i>Contact
+              </a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__buttons">
+          <!--Theme Change button-->
+          <i class="ri-moon-foggy-line change-theme" id="theme-button"></i>
+          <!--Toogle button-->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-unfold-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container grid section__border">
+          <div class="home__data grid">
+            <h1 class="home__title">
+              Hi, I'm Sourabh. <br />
+              I'm a Data Analyst.<br />
+              Love to learn new technology.<br />
+            </h1>
+            <div class="home__blob grid">
+              <div class="home__perfile">
+                <img src="assets/img/avatar.png" alt="profile" />
+              </div>
+
+              <img
+                src="assets/img/shape-wawes.svg"
+                alt=""
+                class="home__shape--wawes"
+              />
+              <img
+                src="assets/img/shape-circle.svg"
+                alt=""
+                class="home__shape--circle"
+              />
+            </div>
+
+            <ul class="home__social">
+              <a
+                href="https://in.linkedin.com/in/sourabhsm"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+              <a
+                href="https://telegram.me/mymaster001"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-telegram-line"></i>
+              </a>
+            </ul>
+          </div>
+
+          <!--==================== HOME Info 1====================-->
+          <div class="home__info">
+            <div>
+              <h3 class="home__info-title">BIOGRAPHY</h3>
+              <p class="home__info-description">
+                Hi, I'm Sourabh.,<br />
+                I'm a Data Analyst. <br />
+                Enthusiast in data insights.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">CONTACT</h3>
+              <p class="home__info-description">
+                sourabhmaithani9050@gmail.com
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">SERVICES</h3>
+              <p class="home__info-description">
+                Data Analyst <br />
+                Technical Support(Help) <br />
+              </p>
+            </div>
+          </div>
+          <!--==================== HOME Info 2====================-->
+          <div class="home__info">
+            <div class="home__info">
+              <div>
+                <h3 class="home__info-title">YEARS OF EXPERIENCE</h3>
+                <p class="home__info-number">3+</p>
+              </div>
+            </div>
+            <div class="home__info">
+              <div>
+                <h3 class="home__info-title">COMPLETED PROJECTS</h3>
+                <p class="home__info-number">5+</p>
+              </div>
+            </div>
+            <div class="home__info">
+              <div>
+                <h3 class="home__info-title">COMPANIES WORKED</h3>
+                <p class="home__info-number">3+</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle"> My favorite skill</span>
+        <div class="skills__container grid section__border">
+          <!--==================== SKILLS 1 ====================-->
+          <div class="skills__content">
+            <h3 class="skills__title">
+              <i class="ri-braces-line"></i> Programming languages
+            </h3>
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/python-logo.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">PYTHON</h3>
+                <span class="skills__subtitle">Advance</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/mysql-logo.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">MYSQL</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== SKILLS 2 ====================-->
+          <div class="skills__content">
+            <h3 class="skills__title">
+              <i class="ri-booklet-line"></i> Libraries
+            </h3>
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/numpy-logo.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">NUMPY</h3>
+                <span class="skills__subtitle"> Intermediate </span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/pandas-logo.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">PANDAS</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+            </div>
+          </div>
+          <!--==================== SKILLS 3====================-->
+          <div class="skills__content">
+            <h3 class="skills__title">
+              <i class="ri-pantone-line"></i> Tools & Softwares
+            </h3>
+
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/excel-logo.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">EXCEL</h3>
+                <span class="skills__subtitle">Advance</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/powerbi-logo.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">POWER BI</h3>
+                <span class="skills__subtitle"> Intermediate </span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/git-logo.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">GIT</h3>
+                <span class="skills__subtitle"> Intermediate </span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/github-logo.svg" alt="skills image" />
+                </div>
+                <h3 class="skills__name">GITHUB</h3>
+                <span class="skills__subtitle"> Intermediate </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="Qualification__title">Qualification</h2>
+        <span class="section__subtitle">Experience & Education </span>
+        <div class="qualification__container container grid section__border">
+          <!--==================== QUALIFICATION 1 ====================-->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-pencil-ruler-2-line"></i>Education
+            </h3>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">Bachelor of Technology</h3>
+                <span class="qualification__country">
+                  Kurukshetra University, Haryana
+                </span>
+                <span class="qualification__year">2020-2024</span>
+              </div>
+
+              <div>
+                <h3 class="qualification__name">Senior Secondary</h3>
+                <span class="qualification__country"
+                  >Gov. Sr. Sec, Sonipat, Haryana</span
+                >
+                <span class="qualification__year">2019-2020</span>
+              </div>
+
+              <div>
+                <h3 class="qualification__name">Primary School</h3>
+                <span class="qualification__country"
+                  >Droan vidya peeth, Sonipat, Haryana</span
+                >
+                <span class="qualification__year">2017-2018</span>
+              </div>
+
+              <div>
+                <h3 class="qualification__name">My Resume</h3>
+                <a
+                  href="https://drive.google.com/file/d/167ljyFXUn1vRGeEzXyvoKv-F2puQ08El/view?usp=sharing"
+                  target="_blank"
+                  ><span class="qualification__year"
+                    >Download Resume <i class="ri-arrow-right-up-line"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!--==================== QUALIFICATION 2 For Work====================-->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-suitcase-line"></i>Experience
+            </h3>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">Contributor</h3>
+                <span class="qualification__country"
+                  ><a href="https://satansync.com/devil" , target="_blank"
+                    >Satan Sync</a
+                  >
+                  [Notworking]
+                </span>
+                <span class="qualification__year">2023-2024</span>
+              </div>
+
+              <div>
+                <h3 class="qualification__name">Trainee [App Developer]</h3>
+                <span class="qualification__country">TechnoHacks</span>
+                <span class="qualification__year">Jul,2023 - Sep, 2023</span>
+              </div>
+
+              <div>
+                <h3 class="qualification__name">Trainee [Web Developer]</h3>
+                <span class="qualification__country">OriginCore</span>
+                <span class="qualification__year">Aug,2022 - Oct, 2022</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What I offer</span>
+        <div class="services__container container grid section__border">
+
+          <div class="services__card">
+            <h2 class="services__title">
+              <i class="ri-briefcase-line"></i>
+              Data collection & Cleaning
+            </h2>
+            <p class="services__description">
+              Data collection and cleaning involves gathering data
+              from various sources and ensuring it's accurate and ready for analysis.            
+            </p>
+            <div class="services__border"></div>
+          </div>
+
+          <div class="services__card">
+            <i class="ri-scan-2-fill"></i>
+            <h2 class="services__title">Data Analysis & Reporting</h2>
+            <p class="services__description">
+              Data analysis identifies trends and patterns, using EDA and visualization to present insights clearly.
+            </p>
+            <div class="services__border"></div>
+          </div>
+
+          <div class="services__card">
+            <i class="ri-briefcase-line"></i>
+            <h2 class="services__title">Business Intelligence (BI) Services</h2>
+            <p class="services__description">
+              Helps organizations make data-driven 
+              decisions with dashboards, reports, and real-time KPI tracking.
+            </p>
+            <div class="services__border"></div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title">View my work</h2>
+        <span class="section__subtitle">Most recent work</span>
+        <div class="container section__border">
+          <div class="projects__container swiper">
+            <div class="swiper-wrapper">
+              <!--==================== PROJECT 1 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="assets/img/currencyConverterFinal.jpg"
+                  alt="projects image"
+                  class="projects__img"
+                />
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h1 class="projects__title">Currency Exchange Rate</h1>
+                  <a
+                    href="https://exchangerateconversion.netlify.app/"
+                    target="_blank"
+                    class="projects__button"
+                  >
+                    View Demo<i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECT 2 ====================-->
+
+              <div class="projects__content swiper-slide">
+                <img
+                  src="assets/img/e_commerce.jpg"
+                  alt="projects image"
+                  class="projects__img"
+                />
+                <div>
+                  <span class="projects__subtitle"> Web </span>
+                  <h1 class="projects__title">E-commerce Website</h1>
+                  <a class="projects__button" href="/502error" target="_blank">
+                    View Demo<i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECT 3 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="assets/img/food_delivery.jpg"
+                  alt="projects image"
+                  class="projects__img"
+                />
+                <div>
+                  <span class="projects__subtitle">App</span>
+                  <h1 class="projects__title">Food delivery</h1>
+                  <a class="projects__button" href="/502error" target="_blank">
+                    View Demo<i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECT 4 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="assets/img/animation_prototype.jpg"
+                  alt="projects image"
+                  class="projects__img"
+                />
+                <div>
+                  <span class="projects__subtitle">Animation</span>
+                  <h1 class="projects__title">Animation prototypes</h1>
+                  <a class="projects__button" href="/502error" target="_blank">
+                    View Demo<i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Swiper--Arrows -->
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <!-- Swiper pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section">
+        <h2 class="section__title">Testimonial</h2>
+        <span class="testimonial__subtitle">My client saying</span>
+        <div class="container section__border">
+          <div class="testimonial__container swiper">
+            <div class="swiper-wrapper">
+              <!--==================== TESTIMONIAL ====================-->
+              <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description">
+                  "Working with Sourabh is to give good impression, I carry out
+                  my project at a good cost, with excellent quality and
+                  attention. Great service and recommended"
+                </p>
+                <div>
+                  <h3 class="testimonial__name">Ajay tiwari</h3>
+                  <span class="testimonial__subtitle">Client</span>
+                </div>
+              </div>
+
+              <!--==================== TESTIMONIAL 1 ====================-->
+              <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description">
+                  "Working with Sourabh is great, I got my project before
+                  timeline. Great service and recommended"
+                </p>
+                <div>
+                  <h3 class="testimonial__name">Shubham kumar</h3>
+                  <span class="testimonial__subtitle">Client</span>
+                </div>
+              </div>
+
+              <!--==================== TESTIMONIAL 2====================-->
+              <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description">
+                  "Working with Sourabh is awesoome. Very humble, give quality
+                  of work. Great service and recommended"
+                </p>
+                <div>
+                  <h3 class="testimonial__name">Rahul Sharma</h3>
+                  <span class="testimonial__subtitle">Client</span>
+                </div>
+              </div>
+            </div>
+            <!-- swiper arrows  -->
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets/img/shape-wawes.svg"
+          alt="testimonial image"
+          class="testinomial__img"
+        />
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+        <div class="contact__container container grid section__border">
+          <div class="contact__content">
+            <h3 class="content__title">
+              <i class="ri-chat-smile-3-line"></i>Talk to me
+            </h3>
+            <div class="contact__info">
+              <div class="contact__data">
+                <span class="contact__data-title">Email</span>
+                <span class="contact__data-info">
+                  sourabhmaithani9050@gmail.com
+                </span>
+                <a
+                  href="mailto:sourabhmaithani9050@gmail.com"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+
+              <div class="contact__data">
+                <span class="contact__data-title">Linkedin</span>
+                <span class="contact__data-info"> Sourabh SM </span>
+                <a
+                  href="https://www.linkedin.com/in/sourabhsm/"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+
+              <div class="contact__data">
+                <span class="contact__data-title">Twitter</span>
+                <span class="contact__data-info">@SourabhSM3</span>
+                <a
+                  href="https://twitter.com/SourabhSM3"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="content__title">
+              <i class="ri-mail-send-line"></i>
+              Write me your project
+            </h3>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__form-div">
+                <label class="contact__form-tag">Name</label>
+                <input
+                  type="text"
+                  name="user_name"
+                  required
+                  placeholder="Write your name"
+                  class="contact__form-input"
+                  id="contact-name"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label class="contact__form-tag">Mail</label>
+                <input
+                  type="email"
+                  name="user_email"
+                  required
+                  placeholder="Write your Email"
+                  class="contact__form-input"
+                  id="contact-email"
+                />
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label class="contact__form-tag">Project</label>
+                <textarea
+                  name="user__project"
+                  required
+                  placeholder="Write your project"
+                  id="contact-project"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+
+              <p class="contact__message" id="contact__message"></p>
+              <button type="submit" class="contact__button">
+                Submit<i class="ri-arrow-right-up-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Sourabh</h1>
+        <p>
+          Data Analyst<br />
+          Technical Support
+        </p>
+        <ul class="footer__list">
+          <li class="footer__list">
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+
+          <li class="footer__list">
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+
+          <li class="footer__list">
+            <a href="#skills" class="footer__link">Skills</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a
+            href="https://www.linkedin.com/in/sourabhsm/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+
+          <a
+            href="https://twitter.com/SourabhSM3"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-twitter-line"></i>
+          </a>
+
+          <a
+            href="mailto:sourabhmaithani9050@gmail.com"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-mail-send-line"></i>
+          </a>
+
+          <a
+            href="https://github.com/sourabhm01"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-github-line"></i>
+          </a>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; Copyrights Sourabh. All rights reserved
+        </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
